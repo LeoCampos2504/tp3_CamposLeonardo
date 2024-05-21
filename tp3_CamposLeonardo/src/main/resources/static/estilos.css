@@ -1,0 +1,139 @@
+
+#header {
+	color: rgb(0, 0, 0);
+    background-color: #e9ecef;/*color del fondo*/
+    padding: 20px;/*cuanto ocupa*/
+    text-align: center;/*donde se ubica*/
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+
+.nav {
+    background-color: #343a40;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+.form-section {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.title-form {
+	text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+
+.sugerencias {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+.contenido-adicional {
+    background-color: rgb(224, 224, 224);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.titulo-aside {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.aside-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.aside-link:hover {
+    text-decoration: underline;
+}
+
+.aside-imagen {
+    width: auto;
+    height: auto;
+    margin-right: 25%;  
+}
+
+
+#footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #ccc;
+}
+
+.footer-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
